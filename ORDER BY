@@ -1,0 +1,27 @@
+-- ORDER BY 
+
+-- The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+
+-- Syntax:-
+
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC/DESC;
+
+---------------------------------------------------
+-- customer - is a Table name
+
+-- first_name - is a column
+
+-- Ascending Order:-
+
+select * from customer
+ORDER BY first_name asc;
+
+
+----------------------------------------------------
+-- Descending Order:-
+
+select * from customer
+ORDER BY first_name desc;
+
